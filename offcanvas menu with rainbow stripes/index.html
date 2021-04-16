@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Offcanvas Menu with Rainbow Stripes Sample</title>
+    <script>
+        function closeNav() {
+            document.getElementById('sidebar').style.width = "0";
+        }
+
+        function openNav() {
+            document.getElementById('sidebar').style.width = "100%";
+        }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --red: #e84118;
+            --orange: #f39c12;
+            --yellow: #fbc531;
+            --green: #44bd32;
+            --blue: #40739e;
+            --purple: #8c7ae6;
+            font-family: Helvetica, Roboto, sans-serif;
+        }
+
+        #sidebar {
+            /*OFF-CANVAS MENU STARTS HERE*/
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+            /*OFF-CANVAS MENU ENDS HERE*/
+
+            /*CSS FOR THE COLORED STRIPES STARTS HERE*/
+            background: rgba(0,0,0,.7);
+            display: grid;
+            grid-template-rows: repeat(6, 1fr);
+            /*CSS FOR THE COLORED STRIPES ENDS HERE sorry for shouting 🥺*/
+        }
+
+        #sidebar a{
+            opacity: 0.6;
+            color: white;
+            font-size: x-large;
+        }
+
+        #sidebar a{
+            text-decoration: none;
+        }
+
+        #sidebar a:nth-child(1) { background: var(--red); }
+        #sidebar a:nth-child(2) { background: var(--orange); }
+        #sidebar a:nth-child(3) { background: var(--yellow); }
+        #sidebar a:nth-child(4) { background: var(--green); }
+        #sidebar a:nth-child(5) { background: var(--blue); }
+        #sidebar a:nth-child(6) { background: var(--purple); }
+
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <a class="closesidebar" onclick="closeNav()">&times;</a>
+        <a>Link 1</a>
+        <a>Link 2</a>
+        <a>Link 3</a>
+        <a>Link 4</a>
+        <a>Link 5</a>
+    </div>
+
+    <button onclick="openNav()">Open</button>
+
+    <div class="main">
+        Page Content
+    </div>
+</body>
+</html>
