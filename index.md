@@ -4,3 +4,4 @@
 [progressive web app](https://bernawastaken.github.io/code-samples/progressive%20web%20app/)  
 [svg text animation](https://bernawastaken.github.io/code-samples/svg%20text%20animation/)  
 [website animation trick](https://bernawastaken.github.io/code-samples/website%20animation%20trick/)  
+**WIP** [Offcanvas Menu with Rainbow Stripes Sample](https://bernawastaken.github.io/code-samples/https://bernawastaken.github.io/code-samples/offcanvas%20menu%20with%20rainbow%20stripes/)  
