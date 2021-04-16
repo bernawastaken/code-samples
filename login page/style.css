@@ -3,7 +3,7 @@ body{
   padding: 0;
   font-family: sans-serif;
   background: url("https://picsum.photos/2560/1440") no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .box{
@@ -24,7 +24,6 @@ body{
 }
 
 .box input[type = "text"], .box input[type = "password"]{
-  border: 0;
   background: none;
   display: block;
   margin: 20px auto;
@@ -43,7 +42,6 @@ body{
   border-color: #2ecc71;
 }
 .box input[type = "submit"]{
-  border: 0;
   background: none;
   display: block;
   margin: 20px auto;
