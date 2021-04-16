@@ -1,0 +1,6 @@
+[3d js animation](https://bernawastaken.github.io/code-samples/3d%20js%20animation/)  
+[css card trick](https://bernawastaken.github.io/code-samples/css%20card%20trick/)  
+[login page](https://bernawastaken.github.io/code-samples/login%20page/)  
+[progressive web app](https://bernawastaken.github.io/code-samples/progressive%20web%20app/)  
+[svg text animation](https://bernawastaken.github.io/code-samples/svg%20text%20animation/)  
+[website animation trick](https://bernawastaken.github.io/code-samples/website%20animation%20trick/)  
